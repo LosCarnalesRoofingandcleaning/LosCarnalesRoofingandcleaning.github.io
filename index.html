@@ -14,26 +14,58 @@
       line-height: 1.6;
     }
 
-    /* Header */
-.header {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  background-color: #ffffff;
-  padding: 20px;
-  border-bottom: 4px solid #0b5ed7;
-}
+    /* HEADER */
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      background-color: #ffffff;
+      padding: 20px;
+      border-bottom: 4px solid #0b5ed7;
+    }
+
     .header img {
       width: 70px;
       height: auto;
+      background: white;
+      padding: 6px;
+      border-radius: 6px;
     }
 
-   .header h1 {
-  margin: 0;
-  font-size: 26px;
-  color: #0b5ed7;
-}
-    /* Main container */
+    .header h1 {
+      margin: 0;
+      font-size: 26px;
+      color: #0b5ed7;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      background: linear-gradient(to right, #0b5ed7, #1e7bf6);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero h2 {
+      font-size: 34px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      background: white;
+      color: #0b5ed7;
+      padding: 12px 26px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    /* MAIN CONTENT */
     .container {
       max-width: 900px;
       margin: 30px auto;
@@ -57,7 +89,7 @@
       margin-bottom: 6px;
     }
 
-    /* Footer */
+    /* FOOTER */
     footer {
       text-align: center;
       padding: 15px;
@@ -75,11 +107,18 @@
     <h1>Los Carnales Roof & Gutter Cleaning Service</h1>
   </header>
 
+  <!-- HERO -->
+  <section class="hero">
+    <h2>Reliable Roofing & Exterior Cleaning You Can Trust</h2>
+    <p>Quality, honest, and affordable service for your home.</p>
+    <a href="#contact" class="btn">Get a Free Quote</a>
+  </section>
+
   <!-- MAIN CONTENT -->
   <div class="container">
     <p>
-      We provide professional exterior services including roof, siding, and gutter cleaning
-      to keep your home clean, protected, and looking its best.
+      Los Carnales Roofing & Cleaning provides professional roof, gutter, siding,
+      and exterior cleaning services to keep your home protected and looking its best.
     </p>
 
     <h2>Our Services</h2>
@@ -125,6 +164,10 @@
         </ul>
       </li>
     </ul>
+
+    <h2 id="contact">Contact Us</h2>
+    <p>Email: yourbusiness@email.com</p>
+    <p>Phone: (123) 456-7890</p>
   </div>
 
   <footer>
