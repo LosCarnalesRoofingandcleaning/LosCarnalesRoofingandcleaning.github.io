@@ -29,33 +29,47 @@
       height: auto;
       background: white;
       padding: 6px;
-      border-radius: 6px;
+      border-radius: 8px;
     }
 
     .header h1 {
       margin: 0;
-      font-size: 26px;
+      font-size: 24px;
       color: #0b5ed7;
     }
 
-    /* HERO (TEXT ONLY, READABLE) */
+    /* HERO */
     .hero {
-      background-color: #ffffff;
-      padding: 40px 20px;
+      background-color: #0b5ed7;
+      color: white;
+      padding: 50px 20px;
       text-align: center;
     }
 
     .hero h2 {
       font-size: 32px;
-      color: #0b5ed7;
       margin-bottom: 10px;
     }
 
     .hero p {
       font-size: 18px;
-      color: #444;
       max-width: 700px;
-      margin: 0 auto;
+      margin: 0 auto 20px auto;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background-color: white;
+      color: #0b5ed7;
+      padding: 12px 25px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #e2e6ea;
     }
 
     /* MAIN CONTENT */
@@ -64,14 +78,12 @@
       margin: 30px auto;
       background: white;
       padding: 30px;
-      border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      border-radius: 10px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.08);
     }
 
     h2 {
       color: #0b5ed7;
-      border-bottom: 2px solid #e0e0e0;
-      padding-bottom: 5px;
       margin-top: 30px;
     }
 
@@ -83,15 +95,29 @@
       margin-bottom: 6px;
     }
 
+    /* WHY CHOOSE US */
+    .why {
+      background: #f0f4ff;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+
     /* CONTACT */
     .contact p {
       font-size: 16px;
+      margin: 8px 0;
     }
 
-    /* FOOTER */
+    .contact a {
+      color: #0b5ed7;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
     footer {
       text-align: center;
-      padding: 15px;
+      padding: 20px;
       margin-top: 30px;
       font-size: 14px;
       color: #777;
@@ -100,79 +126,56 @@
 </head>
 <body>
 
-  <!-- HEADER -->
   <header class="header">
     <img src="logo.png" alt="Los Carnales Logo">
-    <h1>Los Carnales Roof & Gutter Cleaning Service</h1>
+    <h1>Los Carnales Roofing & Cleaning</h1>
   </header>
 
-  <!-- HERO -->
   <section class="hero">
-    <h2>Roofing & Exterior Cleaning You Can Rely On</h2>
+    <h2>Roofing & Exterior Cleaning You Can Trust</h2>
     <p>
-      Professional roof, gutter, siding, and exterior cleaning services
-      focused on quality work and customer satisfaction.
+      Professional roof, gutter, siding, and exterior cleaning services 
+      focused on quality work, reliability, and customer satisfaction.
     </p>
+    <a href="tel:5715128296" class="cta-button">Call Now For Free Estimate</a>
   </section>
 
-  <!-- MAIN CONTENT -->
   <div class="container">
 
     <h2>Our Services</h2>
 
     <ul>
-      <li><strong>Gutter Cleaning</strong>
-        <ul>
-          <li>Remove leaves and debris</li>
-          <li>Prevent water damage</li>
-          <li>Improve drainage</li>
-        </ul>
-      </li>
-
-      <li><strong>Roof Cleaning</strong>
-        <ul>
-          <li>Remove moss and algae</li>
-          <li>Improve roof appearance</li>
-          <li>Extend roof lifespan</li>
-        </ul>
-      </li>
-
-      <li><strong>Siding Cleaning</strong>
-        <ul>
-          <li>Remove dirt and mildew</li>
-          <li>Safe for all siding types</li>
-          <li>Restore curb appeal</li>
-        </ul>
-      </li>
-
-      <li><strong>Landscaping</strong>
-        <ul>
-          <li>Lawn maintenance</li>
-          <li>Yard cleanup</li>
-          <li>Trimming and edging</li>
-        </ul>
-      </li>
-
-      <li><strong>Shingle Installation</strong>
-        <ul>
-          <li>New shingle installation</li>
-          <li>Repair damaged shingles</li>
-          <li>Quality materials used</li>
-        </ul>
-      </li>
+      <li><strong>Gutter Cleaning</strong> – Remove debris and prevent water damage</li>
+      <li><strong>Roof Cleaning</strong> – Remove moss and algae, extend roof lifespan</li>
+      <li><strong>Siding Cleaning</strong> – Safe exterior wash to restore curb appeal</li>
+      <li><strong>Landscaping</strong> – Lawn care, yard cleanup, trimming</li>
+      <li><strong>Shingle Installation</strong> – Install and repair shingles using quality materials</li>
     </ul>
+
+    <h2>Why Choose Us?</h2>
+    <div class="why">
+      <p>✔ Reliable & On-Time Service</p>
+      <p>✔ Affordable & Honest Pricing</p>
+      <p>✔ High-Quality Work</p>
+      <p>✔ Local & Family Operated</p>
+      <p>✔ Free Estimates</p>
+    </div>
+
+    <h2>Service Area</h2>
+    <p>Serving Northern Virginia and surrounding areas.</p>
 
     <h2>Contact Us</h2>
     <div class="contact">
-      <p>Email: loscarnalesroofguttercleaning@gmail.com</p>
-      <p>Phone: (571)-512-8296</p>
+      <p>Email: <a href="mailto:loscarnalesroofguttercleaning@gmail.com">loscarnalesroofguttercleaning@gmail.com</a></p>
+      <p>Phone: <a href="tel:5715128296">(571) 512-8296</a></p>
     </div>
 
   </div>
 
   <footer>
-    © 2026 Los Carnales Roofing & Cleaning
+    © 2026 Los Carnales Roofing & Cleaning | All Rights Reserved
   </footer>
 
 </body>
 </html>
+
